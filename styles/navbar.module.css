@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.nav li {
+  font-size: 1.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav .active {
+  color: var(--blue);
+  text-decoration: underline;
+}

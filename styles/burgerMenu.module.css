@@ -1,11 +1,7 @@
-.burger {
-  text-align: right;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-}
-
 .icon {
   font-size: 2.5rem;
+  text-align: right;
+  padding: 0.5rem;
 }
 
 .icon:hover {

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [activePage, setActivePage] = useState("home");
   const windowSize = useWindowSize();
 
-  if (windowSize.width > 500) {
+  if (windowSize.width > 700) {
     return (
       <nav>
         <ul className={css.nav}>
@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/about">
               <a
                 onClick={() => setActivePage("about")}
                 className={activePage === "about" ? css.active : null}

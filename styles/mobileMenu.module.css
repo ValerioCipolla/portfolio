@@ -1,0 +1,27 @@
+.menu {
+  position: absolute;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  margin-top: 2rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+}

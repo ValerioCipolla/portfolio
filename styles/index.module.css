@@ -1,0 +1,22 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 90vh;
+  width: 60%;
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+}
+
+.welcome h1 {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+.welcome h2 {
+  font-weight: 100;
+  word-spacing: 1rem;
+  letter-spacing: 0.2rem;
+}

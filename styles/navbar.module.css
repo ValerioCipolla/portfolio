@@ -7,7 +7,6 @@
   justify-content: space-evenly;
   background-color: var(--black);
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
 }
 
 .nav li {
@@ -23,4 +22,5 @@
 
 .nav .active {
   opacity: 1;
+  color: var(--green);
 }

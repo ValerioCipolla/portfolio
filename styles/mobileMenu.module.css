@@ -7,15 +7,17 @@
   background-color: var(--black);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .list {
   list-style: none;
+  transform: translate(0, -20%);
 }
 
 .list li {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .list a {

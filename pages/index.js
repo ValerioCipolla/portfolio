@@ -1,25 +1,10 @@
+import * as css from "../styles/index.module.css";
+
 export default function Home() {
   return (
-    <div>
-      <br />
-      <br />
-      <br /> <br />
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
-      LoremIpsumLoremIpsum <br />
-      LoremIpsumLore <br />
-      mIpsumLoremIpsumLoremIpsumLoremIpsumL <br />
-      oremIpsumLore <br />
-      mIpsumLoremIpsumL <br />
-      oremIpsumo <br />
-      remI <br /> <br />
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
-      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <div className={css.welcome}>
+      <h1>Valerio Cipolla.</h1>
+      <h2>Software Engineer & Full Stack Developer</h2>
     </div>
   );
 }

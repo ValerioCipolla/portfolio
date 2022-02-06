@@ -1,0 +1,11 @@
+.greenButton {
+  background-color: var(--green);
+}
+
+.blueButton {
+  background-color: var(--blue);
+}
+
+.button {
+  padding: 1rem;
+}

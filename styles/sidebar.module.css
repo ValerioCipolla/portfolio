@@ -1,0 +1,21 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  min-width: 1rem;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}

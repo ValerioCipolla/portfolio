@@ -34,7 +34,7 @@
   .welcome {
     width: 80%;
     height: 100vh;
-    gap: 8rem;
+    gap: 4rem;
   }
 
   .welcome h1,
@@ -44,7 +44,6 @@
 
   .welcome h1 {
     font-size: 3rem;
-    margin-top: 2rem;
   }
   .welcome h2 {
     font-size: 1.5rem;

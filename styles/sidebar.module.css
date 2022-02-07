@@ -28,3 +28,7 @@
 .icon:hover a {
   opacity: 1;
 }
+
+.hidden {
+  display: none;
+}

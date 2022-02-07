@@ -3,12 +3,13 @@ import Link from "next/link";
 import * as css from "../../styles/button.module.css";
 
 const Button = ({ text, link, type }) => {
+  const classes = `${css.button} ${
+    type === "blue" ? css.blueButton : type === "green" ? css.greenButton : null
+  }`;
   return (
-    <button className={type === "blue" ? css.blueButton : css.greenButton}>
-      <Link href={link}>
-        <a>{text}</a>
-      </Link>
-    </button>
+    <Link href={link}>
+      <button className={classes}>{text}</button>
+    </Link>
   );
 };
 

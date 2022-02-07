@@ -1,7 +1,7 @@
 import * as css from "../styles/index.module.css";
 import Button from "../Components/Button";
 
-export default function Home({ activePage, setActivePage }) {
+export default function Home({ setActivePage }) {
   return (
     <div className={css.welcome}>
       <h1>Valerio Cipolla.</h1>
@@ -11,7 +11,6 @@ export default function Home({ activePage, setActivePage }) {
           text="See my work"
           link="/projects"
           type="blue"
-          activePage={activePage}
           setActivePage={setActivePage}
           toPage="projects"
         />
@@ -19,7 +18,6 @@ export default function Home({ activePage, setActivePage }) {
           text="Get in touch"
           link="/contacts"
           type="green"
-          activePage={activePage}
           setActivePage={setActivePage}
           toPage="contacts"
         />

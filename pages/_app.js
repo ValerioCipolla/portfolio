@@ -7,11 +7,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout activePage={activePage} setActivePage={setActivePage}>
-      <Component
-        {...pageProps}
-        activePage={activePage}
-        setActivePage={setActivePage}
-      />
+      <Component {...pageProps} setActivePage={setActivePage} />
     </Layout>
   );
 }

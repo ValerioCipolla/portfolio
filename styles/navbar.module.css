@@ -23,4 +23,5 @@
 .nav .active {
   opacity: 1;
   color: var(--green);
+  border-bottom: 5px solid var(--green);
 }

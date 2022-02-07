@@ -18,11 +18,24 @@ const About = () => {
         easy-to-use interfaces. I became interested in Software engineering in
         May 2021, and I have been studying and improving since then. I started
         by following the freeCodeCamp curriculum and completing the first 2
-        certifications - Responsive Web Design and JavaScript Algorithms and
-        Data Structure - after that I knew I was in love with JavaScript and
-        wanted to become a full-time Software Engineer. I kept improving and
-        learning through multiple Udemy courses and in November 2021 I decided
-        to change my life forever and start a{" "}
+        certifications -{" "}
+        <a
+          href="https://www.freecodecamp.org/certification/valeriocipolla/responsive-web-design"
+          target="_blank"
+        >
+          Responsive Web Design
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://www.freecodecamp.org/certification/valeriocipolla/javascript-algorithms-and-data-structures"
+          target="_blank"
+        >
+          JavaScript Algorithms and Data Structure
+        </a>{" "}
+        - after that I knew I was in love with JavaScript and wanted to become a
+        full-time Software Engineer. I kept improving and learning through
+        multiple Udemy courses and in November 2021 I decided to change my life
+        forever and start a{" "}
         <span className={css.greenText}>
           16 weeks Full-Stack Software Development Bootcamp
         </span>{" "}
@@ -35,11 +48,11 @@ const About = () => {
       <p>
         The bootcamp has been amazing and I genuinely feel like what I have
         learnt in 4 months at the Bootcamp would have taken me 18/24 months of
-        studying on my own! On the course we learnt how to build{" "}
-        <span className={css.blueText}>full-stack applications</span>, test, and
-        deploy them with the help of technologies like: Git, HTML, CSS,
-        JavaScript, React JS, Node.js, TypeScript, PostgreSQL, Jest, Cypress,
-        Docker, Heroku, Netlify and many more.
+        studying on my own! On the course we learnt how to build, test, and
+        deploy <span className={css.blueText}>full-stack applications</span>{" "}
+        with the help of technologies like: Git, HTML, CSS, JavaScript, React
+        JS, Node.js, TypeScript, PostgreSQL, Jest, Cypress, Docker, Heroku,
+        Netlify and many more.
       </p>
       <p>
         The course was 100% remote and it didn't just teach me how to code, but

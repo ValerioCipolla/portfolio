@@ -6,21 +6,34 @@ const About = () => {
     <div className={css.about}>
       <h1>About Me</h1>
       <p>
-        Hi there, thanks for checking out my portfolio. I am a Software Engineer
-        and Full Stack Developer with a deep understanding of Javascript. I can
-        build full-stack applications using React JS for the front-end, Node.js
-        and PostgreSQL for the back-end.
+        Hi there, thanks for checking out my portfolio.
+        <br /> I am a<span className={css.blueText}> Software Engineer </span>
+        and <span className={css.greenText}>Full Stack Developer</span> with a
+        deep understanding of Javascript. I can build full-stack applications
+        using React JS for the front-end, Node.js and PostgreSQL for the
+        back-end.
       </p>
       <p>
         I enjoy building things for web and creating interactive, fast and
         easy-to-use interfaces. I became interested in Software engineering in
         May 2021, and I have been studying and improving since then. I started
         by following the freeCodeCamp curriculum and completing the first 2
-        certifications (Responsive Web Design and JavaScript Algorithm and Data
-        Structures), and after that I found out I am deeply in love with
-        JavaScript. I kept improving and learning through multiple Udemy courses
-        and in November 2021 I started a 4 months Full-Stack Development
-        Bootcamp with SchoolOfCode.
+        certifications -
+        <span className={css.blueText}> Responsive Web Design </span> and
+        <span className={css.greenText}>
+          {" "}
+          JavaScript Algorithms and Data Structure{" "}
+        </span>
+        - after that I knew I was in love with JavaScript. I kept improving and
+        learning through multiple Udemy courses and in November 2021 I started a{" "}
+        <span className={css.emphasis}>
+          4 months Full-Stack Software Development Bootcamp
+        </span>{" "}
+        with{" "}
+        <a href="https://www.schoolofcode.co.uk/" target="_blank">
+          SchoolOfCode
+        </a>
+        .
       </p>
       <p>
         The bootcamp has been amazing and I love learning new things everyday, I

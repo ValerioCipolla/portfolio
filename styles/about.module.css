@@ -18,6 +18,21 @@
   margin-bottom: 2rem;
 }
 
+.blueText {
+  color: var(--blue);
+}
+.greenText {
+  color: var(--green);
+}
+
+.emphasis {
+  font-weight: 900;
+}
+
+.about a {
+  color: var(--whit);
+}
+
 @media (max-width: 700px) {
   .about {
     padding: 0.5rem;

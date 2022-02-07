@@ -11,12 +11,15 @@ const Sidebar = () => {
         </a>
       </div>
       <div className={css.icon}>
-        <a href="https://github.com/ValerioCipolla" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/valerio-cipolla-software-engineer/"
+          target="_blank"
+        >
           <BsLinkedin />
         </a>
       </div>
       <div className={css.icon}>
-        <a href="https://github.com/ValerioCipolla" target="_blank">
+        <a href="mailto: valeriocipolla92@gmail.com" target="_blank">
           <MdEmail />
         </a>
       </div>

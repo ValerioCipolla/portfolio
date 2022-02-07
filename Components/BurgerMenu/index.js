@@ -3,7 +3,7 @@ import * as css from "../../styles/burgerMenu.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import MobileMenu from "../MobileMenu";
 
-const BurgerMenu = () => {
+const BurgerMenu = ({ activePage, setActivePage }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -11,7 +11,13 @@ const BurgerMenu = () => {
       <div className={css.icon} onClick={() => setIsOpen(!isOpen)}>
         <GiHamburgerMenu />
       </div>
-      {isOpen && <MobileMenu setIsOpen={setIsOpen} />}
+      {isOpen && (
+        <MobileMenu
+          setIsOpen={setIsOpen}
+          activePage={activePage}
+          setActivePage={setActivePage}
+        />
+      )}
     </div>
   );
 };

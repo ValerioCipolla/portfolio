@@ -56,7 +56,7 @@ const Navbar = () => {
       </nav>
     );
   } else {
-    return <BurgerMenu />;
+    return <BurgerMenu activePage={activePage} setActivePage={setActivePage} />;
   }
 };
 

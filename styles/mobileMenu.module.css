@@ -27,3 +27,7 @@
   letter-spacing: 0.3rem;
   font-size: 3rem;
 }
+
+.active {
+  border-bottom: 5px solid var(--white);
+}

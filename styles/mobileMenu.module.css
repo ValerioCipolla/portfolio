@@ -31,3 +31,17 @@
 .active {
   border-bottom: 5px solid var(--white);
 }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
+.icon a {
+  color: var(--white);
+}

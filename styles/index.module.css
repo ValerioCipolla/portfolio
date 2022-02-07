@@ -50,7 +50,7 @@
   }
 
   .buttonSection {
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     flex-direction: column;
     gap: 2rem;
   }

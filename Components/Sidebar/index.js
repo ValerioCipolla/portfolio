@@ -6,13 +6,19 @@ const Sidebar = () => {
   return (
     <div className={css.sidebar}>
       <div className={css.icon}>
-        <BsGithub />
+        <a href="https://github.com/ValerioCipolla" target="_blank">
+          <BsGithub />
+        </a>
       </div>
       <div className={css.icon}>
-        <BsLinkedin />
+        <a href="https://github.com/ValerioCipolla" target="_blank">
+          <BsLinkedin />
+        </a>
       </div>
       <div className={css.icon}>
-        <MdEmail />
+        <a href="https://github.com/ValerioCipolla" target="_blank">
+          <MdEmail />
+        </a>
       </div>
     </div>
   );

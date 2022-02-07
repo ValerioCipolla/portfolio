@@ -12,10 +12,19 @@
 
 .icon {
   font-size: 2rem;
-  padding: 1rem;
+  margin: 1rem;
+}
+
+.icon a {
+  color: var(--white);
+  opacity: 0.6;
 }
 
 .icon:hover {
   transform: scale(1.5);
   cursor: pointer;
+}
+
+.icon:hover a {
+  opacity: 1;
 }

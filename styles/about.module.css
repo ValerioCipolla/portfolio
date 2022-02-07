@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 95vh;
+  width: 60%;
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+  padding: 2rem auto;
+}
+
+.about h1 {
+  margin: 4rem 0;
+  border-bottom: 5px solid var(--white);
+}
+.about p {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .about {
+    padding: 0.5rem;
+    width: 90%;
+  }
+
+  .about h1 {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+}

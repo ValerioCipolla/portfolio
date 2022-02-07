@@ -33,7 +33,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/projects">
               <a
                 onClick={() => setActivePage("projects")}
                 className={activePage === "projects" ? css.active : null}
@@ -43,7 +43,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/contacts">
               <a
                 onClick={() => setActivePage("contacts")}
                 className={activePage === "contacts" ? css.active : null}

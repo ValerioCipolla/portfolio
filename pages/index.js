@@ -7,8 +7,8 @@ export default function Home() {
       <h1>Valerio Cipolla.</h1>
       <h2>Software Engineer & Full Stack Developer</h2>
       <div className={css.buttonSection}>
-        <Button text="See my work" link="/" type="blue" />
-        <Button text="Get in touch" link="/" type="green"/>
+        <Button text="See my work" link="/projects" type="blue" />
+        <Button text="Get in touch" link="/contacts" type="green" />
       </div>
     </div>
   );

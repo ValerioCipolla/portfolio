@@ -4,8 +4,7 @@ import * as css from "../../styles/navbar.module.css";
 import { useWindowSize } from "../../hooks/useWindowSize";
 import BurgerMenu from "../BurgerMenu";
 
-const Navbar = () => {
-  const [activePage, setActivePage] = useState("home");
+const Navbar = ({activePage, setActivePage}) => {
   const windowSize = useWindowSize();
 
   if (windowSize.width > 700) {

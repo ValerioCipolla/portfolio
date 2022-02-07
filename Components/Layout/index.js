@@ -4,7 +4,7 @@ import Sidebar from "../Sidebar";
 import Head from "next/head";
 import * as css from "../../styles/body.module.css";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, activePage, setActivePage }) => {
   return (
     <div>
       <Head>
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={css.body}>
-        <Navbar />
+        <Navbar activePage={activePage} setActivePage={setActivePage}/>
         <Sidebar />
         {children}
       </div>

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
 import Head from "next/head";
 import * as css from "../../styles/body.module.css";
 
 const Layout = ({ children, activePage, setActivePage }) => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <div>
       <Head>
@@ -16,9 +17,14 @@ const Layout = ({ children, activePage, setActivePage }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={css.body}>
-        <Navbar activePage={activePage} setActivePage={setActivePage} />
+        <Navbar
+          activePage={activePage}
+          setActivePage={setActivePage}
+          isOpen={isMobileMenuOpen}
+          setIsOpen={setIsMobileMenuOpen}
+        />
         <Sidebar />
-        {children}
+        {!isMobileMenuOpen && children}
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import * as css from "../../styles/navbar.module.css";
 import { useWindowSize } from "../../hooks/useWindowSize";
 import BurgerMenu from "../BurgerMenu";
 
-const Navbar = ({activePage, setActivePage}) => {
+const Navbar = ({ activePage, setActivePage, isOpen, setIsOpen }) => {
   const windowSize = useWindowSize();
 
   if (windowSize.width > 700) {
@@ -55,7 +55,14 @@ const Navbar = ({activePage, setActivePage}) => {
       </nav>
     );
   } else {
-    return <BurgerMenu activePage={activePage} setActivePage={setActivePage} />;
+    return (
+      <BurgerMenu
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        activePage={activePage}
+        setActivePage={setActivePage}
+      />
+    );
   }
 };
 

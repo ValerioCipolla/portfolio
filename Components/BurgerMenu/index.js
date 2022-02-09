@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import * as css from "../../styles/burgerMenu.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import MobileMenu from "../MobileMenu";
 
-const BurgerMenu = ({ activePage, setActivePage }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const BurgerMenu = ({ activePage, setActivePage, isOpen, setIsOpen }) => {
 
   return (
     <div className={css.burgerMenu}>

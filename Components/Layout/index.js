@@ -14,6 +14,7 @@ const Layout = ({ children, activePage, setActivePage }) => {
       setIsMobileMenuOpen(false);
     }
   }, [windowSize]);
+
   return (
     <div>
       <Head>

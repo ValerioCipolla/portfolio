@@ -5,7 +5,17 @@ import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 import { useWindowSize } from "../../hooks/useWindowSize";
 
-const Project = ({ title, techStack, description, sourceLink, liveLink }) => {
+const Project = ({
+  title,
+  techStack,
+  description,
+  sourceLink,
+  liveLink,
+  id,
+  leftArrowHandler,
+  rightArrowHandler,
+  projectsLenght
+}) => {
   const windowSize = useWindowSize();
 
   return (
@@ -13,17 +23,17 @@ const Project = ({ title, techStack, description, sourceLink, liveLink }) => {
       <div className={css.container}>
         <div className={css.counterContainer}>
           <div className={css.arrow}>
-            <FaAngleLeft />
+            <FaAngleLeft onClick={() => leftArrowHandler()} />
           </div>
-          <p className={css.projectCounter}>Project 1/10</p>
+          <p className={css.projectCounter}>Project {id}/{projectsLenght}</p>
           <div className={css.arrow}>
-            <FaAngleRight />
+            <FaAngleRight onClick={() => rightArrowHandler()} />
           </div>
         </div>
         <div className={css.slider}>
           {windowSize.width > 700 && (
             <div className={css.arrow}>
-              <FaAngleLeft />
+              <FaAngleLeft onClick={() => leftArrowHandler()} />
             </div>
           )}
           <div className={css.card}>
@@ -51,7 +61,7 @@ const Project = ({ title, techStack, description, sourceLink, liveLink }) => {
           </div>
           {windowSize.width > 700 && (
             <div className={css.arrow}>
-              <FaAngleRight />
+              <FaAngleRight onClick={() => rightArrowHandler()} />
             </div>
           )}
         </div>

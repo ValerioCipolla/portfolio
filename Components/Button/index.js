@@ -10,6 +10,7 @@ const Button = ({
   toPage,
   size,
   internal,
+  projectButton,
 }) => {
   const classes = `${css.button} ${
     color === "blue"
@@ -19,7 +20,7 @@ const Button = ({
       : null
   } ${
     size === "big" ? css.bigButton : size === "small" ? css.smallButton : null
-  }`;
+  } ${projectButton ? css.projectButton : null}`;
 
   if (internal) {
     return (

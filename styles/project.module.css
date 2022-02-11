@@ -9,7 +9,7 @@
 }
 
 .card {
-  background-color: var(--light-black);
+  background-color: #0a0a0a;
   padding: 2rem;
   border-radius: 5px;
   display: flex;
@@ -58,6 +58,7 @@
   font-size: 3rem;
   opacity: 0.6;
   z-index: 0;
+  transition: all 0.5s ease;
 }
 
 .arrow:hover {

@@ -31,6 +31,7 @@
 
 .about a {
   color: var(--white);
+  transition: all 0.5s ease;
 }
 
 .about a:hover {

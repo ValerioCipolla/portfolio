@@ -1,22 +1,33 @@
 .greenButton {
-  background-color: var(--green);
+  color: var(--green);
+  border: 3px solid var(--green);
 }
 
 .blueButton {
-  background-color: var(--blue);
+  color: var(--blue);
+  border: 3px solid var(--blue);
 }
 
 .button {
+  transition: all 0.5s ease;
   text-decoration: none;
-  color: var(--black);
   text-transform: uppercase;
-  border: none;
+  background-color: var(--black);
   font-weight: 600;
 }
 
 .button:hover {
   cursor: pointer;
-  text-decoration: underline;
+}
+
+.greenButton:hover {
+  color: var(--black);
+  background-color: var(--green);
+}
+
+.blueButton:hover {
+  color: var(--black);
+  background-color: var(--blue);
 }
 
 .bigButton {
@@ -27,6 +38,10 @@
 .smallButton {
   font-size: 1rem;
   padding: 0.25rem 0.5rem;
+}
+
+.projectButton {
+  background-color: var(--card-color);
 }
 
 @media (max-width: 700px) {

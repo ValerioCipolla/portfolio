@@ -29,8 +29,20 @@ const Project = ({ title, techStack, description, sourceLink, liveLink }) => {
           <div className={css.card}>
             <h1 className={css.title}>{title}</h1>
             <div className={css.buttonSection}>
-              <Button text="Live site" link={liveLink} color="blue" size="small" />
-              <Button text="Source code" link={sourceLink} color="green" size="small" />
+              <Button
+                text="Live site"
+                link={liveLink}
+                color="blue"
+                size="small"
+                projectButton={true}
+              />
+              <Button
+                text="Source code"
+                link={sourceLink}
+                color="green"
+                size="small"
+                projectButton={true}
+              />
             </div>
             <h4 className={css.heading}>Tech Stack:</h4>
             <p>{techStack}</p>

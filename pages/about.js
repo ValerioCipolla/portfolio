@@ -7,7 +7,8 @@ const About = () => {
       <h1>About Me</h1>
       <p>
         Hi there, thanks for checking out my portfolio.
-        <br /> I am a<span className={css.blueText}> Software Engineer </span>
+        <br /> I am a bilingual{" "}
+        <span className={css.blueText}> Software Engineer </span>
         and <span className={css.greenText}>Full Stack Developer</span>. I can
         build full-stack applications with technologies like React, Node.js and
         PostgreSQL.

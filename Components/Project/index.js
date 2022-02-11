@@ -14,7 +14,7 @@ const Project = ({
   id,
   leftArrowHandler,
   rightArrowHandler,
-  projectsLenght
+  projectsLength,
 }) => {
   const windowSize = useWindowSize();
 
@@ -25,7 +25,9 @@ const Project = ({
           <div className={css.arrow}>
             <FaAngleLeft onClick={() => leftArrowHandler()} />
           </div>
-          <p className={css.projectCounter}>Project {id}/{projectsLenght}</p>
+          <p className={css.projectCounter}>
+            Project {id}/{projectsLength}
+          </p>
           <div className={css.arrow}>
             <FaAngleRight onClick={() => rightArrowHandler()} />
           </div>
@@ -56,7 +58,7 @@ const Project = ({
             </div>
             <h4 className={css.heading}>Tech Stack:</h4>
             <p className={css.techStack}>{techStack}</p>
-            <h4 className={css.heading}>Description:</h4>
+            <h4 className={css.heading}>The Story:</h4>
             <p className={css.description}>{description}</p>
           </div>
           {windowSize.width > 700 && (

@@ -13,6 +13,7 @@ export default function Home({ setActivePage }) {
           type="blue"
           setActivePage={setActivePage}
           toPage="projects"
+          size="big"
         />
         <Button
           text="Get in touch"
@@ -20,6 +21,7 @@ export default function Home({ setActivePage }) {
           type="green"
           setActivePage={setActivePage}
           toPage="contacts"
+          size="big"
         />
       </div>
     </div>

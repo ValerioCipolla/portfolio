@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
 import Head from "next/head";
 import * as css from "../../styles/body.module.css";
+import { useWindowSize } from "../../hooks/useWindowSize";
 
 const Layout = ({ children, activePage, setActivePage }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const windowSize = useWindowSize();
+
+  useEffect(() => {
+    if (isMobileMenuOpen && windowSize.width > 700) {
+      setIsMobileMenuOpen(false);
+    }
+  }, [windowSize]);
   return (
     <div>
       <Head>

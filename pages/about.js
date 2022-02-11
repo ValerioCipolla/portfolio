@@ -8,17 +8,15 @@ const About = () => {
       <p>
         Hi there, thanks for checking out my portfolio.
         <br /> I am a<span className={css.blueText}> Software Engineer </span>
-        and <span className={css.greenText}>Full Stack Developer</span> with a
-        deep understanding of Javascript. I can build full-stack applications
-        using React JS for the front-end, Node.js and PostgreSQL for the
-        back-end.
+        and <span className={css.greenText}>Full Stack Developer</span>. I can
+        build full-stack applications with technologies like React, Node.js and
+        PostgreSQL.
       </p>
       <p>
-        I enjoy building things for web and creating interactive, fast and
-        easy-to-use interfaces. I became interested in Software engineering in
-        May 2021, and I have been studying and improving since then. I started
-        by following the freeCodeCamp curriculum and completing the first 2
-        certifications -{" "}
+        I enjoy solving problems and creating things for the web. I became
+        interested in Software engineering in May 2021, and I have been studying
+        and improving since then. I started by following the freeCodeCamp
+        curriculum and completing the first 2 certifications -{" "}
         <a
           href="https://www.freecodecamp.org/certification/valeriocipolla/responsive-web-design"
           target="_blank"
@@ -32,8 +30,8 @@ const About = () => {
         >
           JavaScript Algorithms and Data Structure
         </a>{" "}
-        - after that I knew I was in love with JavaScript and wanted to become a
-        full-time Software Engineer. I kept improving and learning through
+        - I enjoyed doing that so much, I knew I wanted (needed) to pursue a
+        career as a Software Engineer. I kept improving and learning through
         multiple Udemy courses and in November 2021 I decided to change my life
         forever and start a{" "}
         <span className={css.greenText}>
@@ -46,7 +44,7 @@ const About = () => {
         .
       </p>
       <p>
-        The bootcamp has been amazing and I genuinely feel like what I have
+        The experience has been amazing and I genuinely feel like what I have
         learnt in 4 months at the Bootcamp would have taken me 18/24 months of
         studying on my own! On the course we learnt how to build, test, and
         deploy <span className={css.blueText}>full-stack applications</span>{" "}
@@ -70,13 +68,13 @@ const About = () => {
         I am looking forward to starting my career as a Software Engineer to
         work on <span className={css.greenText}>real-world problems</span> and
         potentially improve people's lives through software. Naturally curious
-        and obsessed with <span className={css.blueText}>self-improvement</span>
+        and obsessed with <span className={css.blueText}>self-development</span>
         , I am always learning something new. Before finding my love for coding
         I was a certified Personal Trainer and Sports Massage Therapist, and in
         2020 I earned a Bachelor's degree in Psychology. I am confident the
         people skills I gained through my previous employment and my knowledge
-        about the human mind and body will prove very valuable in my engineering
-        career.
+        about the human mind and body will prove very valuable in my software
+        engineering career.
       </p>
       <p>
         In my free time I enjoy problem solving activities. I love playing chess

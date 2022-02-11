@@ -45,7 +45,7 @@ const Project = ({ title, techStack, description, sourceLink, liveLink }) => {
               />
             </div>
             <h4 className={css.heading}>Tech Stack:</h4>
-            <p>{techStack}</p>
+            <p className={css.techStack}>{techStack}</p>
             <h4 className={css.heading}>Description:</h4>
             <p className={css.description}>{description}</p>
           </div>

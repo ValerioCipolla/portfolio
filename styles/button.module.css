@@ -16,7 +16,7 @@
 
 .button:hover {
   cursor: pointer;
-  transform: translate(0, -0.5rem);
+  text-decoration: underline;
 }
 
 .bigButton {

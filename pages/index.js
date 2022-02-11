@@ -10,18 +10,20 @@ export default function Home({ setActivePage }) {
         <Button
           text="See my work"
           link="/projects"
-          type="blue"
+          color="blue"
           setActivePage={setActivePage}
           toPage="projects"
           size="big"
+          internal={true}
         />
         <Button
           text="Get in touch"
           link="/contacts"
-          type="green"
+          color="green"
           setActivePage={setActivePage}
           toPage="contacts"
           size="big"
+          internal={true}
         />
       </div>
     </div>

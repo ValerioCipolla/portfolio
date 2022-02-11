@@ -7,6 +7,7 @@
   justify-content: space-evenly;
   background-color: var(--black);
   letter-spacing: 0.1rem;
+  z-index: 1;
 }
 
 .nav li {

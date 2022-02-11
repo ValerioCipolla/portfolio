@@ -30,7 +30,14 @@
 }
 
 .about a {
-  color: var(--whit);
+  color: var(--white);
+}
+
+.about a:hover {
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--white);
+  font-weight: 900;
 }
 
 @media (max-width: 700px) {
@@ -42,5 +49,12 @@
   .about h1 {
     margin: 0;
     margin-bottom: 2rem;
+  }
+
+  .about a:hover {
+    text-decoration: underline;
+    color: var(--white);
+    background-color: var(--black);
+    font-weight: 400;
   }
 }

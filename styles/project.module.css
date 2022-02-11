@@ -14,6 +14,7 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  margin: 2rem 0;
 }
 
 .buttonSection {
@@ -56,6 +57,7 @@
 .arrow {
   font-size: 3rem;
   opacity: 0.6;
+  z-index: 0;
 }
 
 .arrow:hover {

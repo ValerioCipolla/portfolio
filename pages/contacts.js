@@ -32,7 +32,7 @@ const Contacts = () => {
           projectButton={false}
         />
         <Button
-          text={windowSize.width > 700 ? "send an e-mail" : "email"}
+          text={windowSize.width > 700 ? "send an e-mail" : "e-mail"}
           link="mailto: valeriocipolla92@gmail.com"
           color="white"
           size="big"

@@ -8,6 +8,7 @@
   margin: auto;
   font-family: "Roboto Mono", monospace;
   padding: 2rem auto;
+  line-height: 1.5;
 }
 
 .about h1 {

@@ -17,6 +17,8 @@ const Button = ({
       ? css.blueButton
       : color === "green"
       ? css.greenButton
+      : color === "white"
+      ? css.whiteButton
       : null
   } ${
     size === "big" ? css.bigButton : size === "small" ? css.smallButton : null

@@ -20,7 +20,7 @@ const Project = ({
 
   return (
     <>
-      <div className={css.container}>
+      <div className={css.container} data-aos="fade-down">
         <div className={css.counterContainer}>
           <div className={css.arrow}>
             <FaAngleLeft onClick={() => leftArrowHandler()} />

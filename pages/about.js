@@ -3,7 +3,7 @@ import * as css from "../styles/about.module.css";
 
 const About = () => {
   return (
-    <div className={css.about}>
+    <div className={css.about} data-aos="fade-down">
       <h1>About Me</h1>
       <p>
         Hi there, thanks for checking out my portfolio.

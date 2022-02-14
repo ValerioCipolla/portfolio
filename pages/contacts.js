@@ -7,7 +7,7 @@ const Contacts = () => {
   const windowSize = useWindowSize();
 
   return (
-    <div className={css.container}>
+    <div className={css.container} data-aos="fade-down">
       <h1 className={css.heading}>Get in touch</h1>
       <p className={css.paragraph}>
         Thanks for stopping by, hope you had a good time.

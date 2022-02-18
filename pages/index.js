@@ -11,7 +11,7 @@ export default function Home({ setActivePage }) {
 
   return (
     <div className={css.welcome} data-aos="fade-down">
-      <h1>Valerio Cipolla.</h1>
+      <h1>Valerio Cipolla</h1>
       <h2>Software Engineer & Full Stack Developer</h2>
       <div className={css.buttonSection}>
         <Button

@@ -26,7 +26,7 @@
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 2rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Ubuntu', sans-serif;
   border-bottom: 5px solid var(--white);
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +39,7 @@
 }
 
 .techStack {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .slider {
@@ -73,7 +73,7 @@
 }
 .description {
   line-height: 1.5;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 @media (max-width: 700px) {

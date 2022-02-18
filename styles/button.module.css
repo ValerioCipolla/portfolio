@@ -19,6 +19,7 @@
   text-transform: uppercase;
   background-color: var(--black);
   font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .button:hover {

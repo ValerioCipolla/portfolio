@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as css from "../styles/about.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className={css.about} data-aos="fade-down">
       <h1>About Me</h1>

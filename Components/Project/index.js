@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Button from "../Button";
 import * as css from "../../styles/project.module.css";
 import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 import { useWindowSize } from "../../hooks/useWindowSize";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project = ({
   title,
@@ -17,6 +19,9 @@ const Project = ({
   projectsLength,
 }) => {
   const windowSize = useWindowSize();
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>

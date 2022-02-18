@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as css from "../styles/contacts.module.css";
 import Button from "../Components/Button";
 import { useWindowSize } from "../hooks/useWindowSize";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contacts = () => {
   const windowSize = useWindowSize();
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div className={css.container} data-aos="fade-down">

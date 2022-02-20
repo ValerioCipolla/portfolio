@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Rubik&display=swap");
+
 .greenButton {
   color: var(--green);
   border: 3px solid var(--green);
@@ -19,6 +21,7 @@
   text-transform: uppercase;
   background-color: var(--black);
   font-weight: 600;
+  font-family: "Rubik", sans-serif;
 }
 
 .button:hover {

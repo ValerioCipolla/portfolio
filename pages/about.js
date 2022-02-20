@@ -13,11 +13,13 @@ const About = () => {
       <h1>About Me</h1>
       <p>
         Hi there, thanks for checking out my portfolio.
-        <br /> I am a bilingual{" "}
+        <br /> I am a bilingual, ambitious{" "}
         <span className={css.blueText}> Software Engineer </span>
-        and <span className={css.greenText}>Full Stack Developer</span>. I can
-        build full-stack applications with technologies like React, Node.js and
-        PostgreSQL.
+        and <span className={css.greenText}>Full Stack Developer</span>. Highly
+        skilled in problem solving and logical thinking I apply my best
+        qualities to the challenges of the tech industry. I have a lot of
+        experience in using the MERN stack, but I can pick up new skills,
+        languages and frameworks very quickly.
       </p>
       <p>
         I enjoy solving problems and creating things for the web. I became
@@ -56,8 +58,8 @@ const About = () => {
         studying on my own! On the course we learnt how to build, test, and
         deploy <span className={css.blueText}>full-stack applications</span>{" "}
         with the help of technologies like: Git, HTML, CSS, JavaScript, React
-        JS, Node.js, TypeScript, PostgreSQL, Jest, Cypress, Docker, Heroku,
-        Netlify and many more.
+        JS, Node.js, Express, MongoDB, TypeScript, PostgreSQL, Jest, Cypress,
+        Docker, Heroku, Netlify and many more.
       </p>
       <p>
         The course was 100% remote and it didn't just teach me how to code, but

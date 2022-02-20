@@ -4,7 +4,7 @@ export const projects = [
     title: "School Of Code Link Tracker",
     liveLink: "https://soc-links-tracker.herokuapp.com/",
     sourceLink: "https://github.com/ValerioCipolla/soc-link-tracker-full-stack",
-    techStack: "React JS, Node.js, PostgreSQL",
+    techStack: "React JS, CSS, Node.js, PostgreSQL",
     description:
       "I worked on this project as a member of a team of 4 people. We were asked by SchoolOfCode to solve a problem that we encountered through the bootcamp. We thought that one of the most difficult things for us to do up until that point was to keep track of all the resources that we were shown on a daily basis! That's why we decided to create something that would help us do that. We focused on usability and accessibility, that meant creating an easy-to-use and functional user interface with React which delivered an excellent UX. Most of the time on this project I spent it looking after the back-end part (setting up the PostgreSQL database on Heroku and creating the API that serves the front-end with Node.js) and deploying the application. I also created the form to add new resources to the database using React. During this project I worked on my back-end and front-end skills, deployed a full-stack application for the first time and understood what it means to work in a team and cooperate using version control (git branching, pull requests, merge requests and code reviews).",
   },
@@ -25,5 +25,14 @@ export const projects = [
     techStack: "React JS, CSS",
     description:
       "Right after learning React on the SchoolOfCode Bootcamp, I felt like I needed more practice, to really understand how this great library works. I could see its potential, but I didn't really grasped how it worked yet. That is why I decided to embark on a little solo project, to work on during evenings and week-ends: build the famous Snake Game - we all played it on our phones at least once in our life - and I was gonna do it using only React (and a little CSS to make it look better :D). I did NOT follow a tutorial, and I stopped myself from googling 'how to build a snake game with react' - I wanted to struggle, because I strongly believe that is what I needed to become a better software engineer. It's fair to say it was a battle, I had to figure out how to represent a snake on the screen, how to make it move and how to make it change direction. I ended up using an array of squares to create the snake, various timeouts to make it move at regular intervals and event listeners to tell the snake when and how to change directions. I can honestly say 90% of the things I know about React, I learnt them through this project, I had to work out where various states needed to live, when it was necessary to lift state up, how to use useEffect and how to clean up after myself when setting up timeouts and event listeners, how useReducer exactly works and many more things. I really do suggest you try it out by clicking the LIVE SITE button above - it's FUN! Looking at the future: I want to create the back-end for this project, to make it possible for people to enter their score once they finish playing and display a leaderboard to see what the best score is. I also want to create a tutorial where I explain HOW I built the game so other people can learn it with me.",
+  },
+  {
+    id: 4,
+    title: "change-to-upper-kata",
+    liveLink: "https://github.com/ValerioCipolla/change-to-upper-kata",
+    sourceLink: "https://github.com/ValerioCipolla/change-to-upper-kata",
+    techStack: "Python",
+    description:
+      "During the bootcamp, just for one day, we were given the freedom to learn whatever we wanted for the day. I was in a group of 3 people and we decided to learn about Python. We spent about 5 hours learning the basics of it and the last hour of the day we decided to create a small game (inspired by katas on Codewars) to cement our knowledge (and challenge our friends :D). Ideating and creating the challenge was a lot of fun and it gave me an opportunity to practice the newly acquired Python skills. I really enjoyed writing the tests for the challenge (to give the users a way to check if their code works as it should), I used the unittest library for it. By clicking on any of the buttons above you can visit the GitHub repo to look at the source code, and (if you fancy a challenge) you can follow the instructions in the README to play with us!",
   },
 ];

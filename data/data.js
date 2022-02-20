@@ -44,4 +44,13 @@ export const projects = [
     description:
       "I built this project at the end of week 3 of the Bootcamp. That week on the course we had talked about design, css, and asynchronous operations like fetching from an API. I decided to put all of those concepts together by creating a simple application that uses a free API to fetch recipes. Rather than displaying all of the recipes together I decided to give the users the option to filter the recipes through nationality, before displaying the recipes as cards arranged in a grid created with css. Once the recipes are displayed, the user can browse through them and he/she can pick the one she likes the most, the recipes card have an onClick listener that will open up a modal with information about that particular recipe and a link to the step-by-step procedure.",
   },
+  {
+    id: 6,
+    title: "Vanilla JavaScript Dictionary",
+    liveLink: "https://valeriocipolla.github.io/vanilla-js-dictionary/",
+    sourceLink: "https://github.com/ValerioCipolla/vanilla-js-dictionary",
+    techStack: "HTML, CSS, JavaScript",
+    description:
+      "I originally built this project at the end of week 2 of the School of Code bootcamp. That week we were taught about DOM manipulation and async operations. So my partner and I decided to put everything together to build a simple application that allows the user to look up an english word and find its meaning, origins, and pronunciation (audio file included). We used the querySelector method to interact with the DOM and a free API to fetch information about the words the users can input. Later on I spent some additional time to refactor the code and to add responsiveness, so it can be used on both big and small screens. The app has some error-handling (if the word is not found, it lets the user know and advises to check the spelling) and also keeps track of the history of words that were looked up, it has a button that when clicked shows the words that were searched during that session.",
+  },
 ];

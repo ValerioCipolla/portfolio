@@ -35,4 +35,13 @@ export const projects = [
     description:
       "During the bootcamp, just for one day, we were given the freedom to learn whatever we wanted for the day. I was in a group of 3 people and we decided to learn about Python. We spent about 5 hours learning the basics of it and the last hour of the day we decided to create a small game (inspired by katas on Codewars) to cement our knowledge (and challenge our friends :D). Ideating and creating the challenge was a lot of fun and it gave me an opportunity to practice the newly acquired Python skills. I really enjoyed writing the tests for the challenge (to give the users a way to check if their code works as it should), I used the unittest library for it. By clicking on any of the buttons above you can visit the GitHub repo to look at the source code, and (if you fancy a challenge) you can follow the instructions in the README to play with us!",
   },
+  {
+    id: 5,
+    title: "Recipe Finder",
+    liveLink: "https://valeriocipolla.github.io/vanilla-js-recipe-finder/",
+    sourceLink: "https://github.com/ValerioCipolla/vanilla-js-recipe-finder",
+    techStack: "HTML, CSS, JavaScript",
+    description:
+      "I built this project at the end of week 3 of the Bootcamp. That week on the course we had talked about design, css, and asynchronous operations like fetching from an API. I decided to put all of those concepts together by creating a simple application that uses a free API to fetch recipes. Rather than displaying all of the recipes together I decided to give the users the option to filter the recipes through nationality, before displaying the recipes as cards arranged in a grid created with css. Once the recipes are displayed, the user can browse through them and he/she can pick the one she likes the most, the recipes card have an onClick listener that will open up a modal with information about that particular recipe and a link to the step-by-step procedure.",
+  },
 ];

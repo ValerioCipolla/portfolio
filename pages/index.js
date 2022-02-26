@@ -10,28 +10,35 @@ export default function Home({ setActivePage }) {
   }, []);
 
   return (
-    <div className={css.welcome} data-aos="fade-down">
-      <h1>Valerio Cipolla</h1>
-      <h2>Software Engineer & Full Stack Developer</h2>
-      <div className={css.buttonSection}>
-        <Button
-          text="See my work"
-          link="/projects"
-          color="blue"
-          setActivePage={setActivePage}
-          toPage="projects"
-          size="big"
-          internal={true}
-        />
-        <Button
-          text="Get in touch"
-          link="/contacts"
-          color="green"
-          setActivePage={setActivePage}
-          toPage="contacts"
-          size="big"
-          internal={true}
-        />
+    <div className={css.flexContainer}>
+      <div className={css.welcome} data-aos="fade-down">
+        <div className={css.name}>
+          <h1>Valerio Cipolla</h1>
+          <h2>
+            Software Engineer & <br />
+            Full Stack Developer
+          </h2>
+        </div>
+        <div className={css.buttonSection}>
+          <Button
+            text="See my work"
+            link="/projects"
+            color="blue"
+            setActivePage={setActivePage}
+            toPage="projects"
+            size="big"
+            internal={true}
+          />
+          <Button
+            text="Get in touch"
+            link="/contacts"
+            color="green"
+            setActivePage={setActivePage}
+            toPage="contacts"
+            size="big"
+            internal={true}
+          />
+        </div>
       </div>
     </div>
   );

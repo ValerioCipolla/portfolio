@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding-top: 8rem;
   margin: auto;
   width: 80%;
@@ -59,4 +59,83 @@
     word-spacing: normal;
     font-size: 1.2rem;
   }
+} */
+
+.gridContainer {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  max-width: 60%;
+  margin: auto;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  align-self: center;
+}
+
+.heading {
+  font-size: 3rem;
+  width: 80%;
+  margin: auto;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  width: 80%;
+  margin: auto;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.buttonSection * {
+  min-width: 200px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .buttonSection {
+    margin: auto;
+  }
+}
+/* .buttonSection {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .buttonSection button {
+    min-width: 200px;
+  }
+
+  .container {
+    padding-top: 1rem;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .heading {
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 2.5rem;
+  }
+
+  .paragraph {
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 1.2rem;
+  } */

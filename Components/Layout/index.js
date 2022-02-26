@@ -26,13 +26,12 @@ const Layout = ({ children, activePage, setActivePage }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={css.body}>
-        <Navbar
+        <Sidebar
           activePage={activePage}
           setActivePage={setActivePage}
           isOpen={isMobileMenuOpen}
           setIsOpen={setIsMobileMenuOpen}
         />
-        <Sidebar />
         {!isMobileMenuOpen && children}
       </div>
     </div>

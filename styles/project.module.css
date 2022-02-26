@@ -1,7 +1,7 @@
 .container {
   margin: auto;
   max-width: 70%;
-  color: var(--white);
+  color: var(--primaryColor);
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -9,12 +9,13 @@
 }
 
 .card {
-  background-color: #0a0a0a;
+  background-color: var(--cardColor);
   padding: 2rem;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   margin: 2rem 0;
+  box-shadow: 5px 5px 5px 5px;
 }
 
 .buttonSection {
@@ -26,7 +27,7 @@
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 2rem;
-  border-bottom: 5px solid var(--white);
+  border-bottom: 5px solid var(--primaryColor);
   margin-left: auto;
   margin-right: auto;
 }

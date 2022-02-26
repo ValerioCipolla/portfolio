@@ -3,12 +3,12 @@
   left: 0;
   height: 100vh;
   min-width: 1rem;
-  background-color: var(--black);
+  background-color: var(--backgroundColor);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid white;
+  border-right: 1px solid var(--primaryColor);
 }
 
 .iconFlex {
@@ -23,8 +23,7 @@
 }
 
 .icon a {
-  color: var(--white);
-  opacity: 0.6;
+  color: var(--primaryColor);
   transition: all 0.5s ease;
 }
 
@@ -33,7 +32,6 @@
 }
 
 .icon:hover a {
-  opacity: 1;
 }
 
 .hidden {
@@ -56,10 +54,8 @@
 
 .nav a {
   text-decoration: none;
-  color: var(--white);
-  opacity: 0.6;
+  color: var(--primaryColor);
 }
 
 .nav .active {
-  opacity: 1;
 }

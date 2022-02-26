@@ -5,7 +5,7 @@
   list-style: none;
   width: 100%;
   justify-content: space-evenly;
-  background-color: var(--black);
+  background-color: var(--backgroundColor);
   letter-spacing: 0.1rem;
   z-index: 1;
 }
@@ -17,12 +17,10 @@
 
 .nav a {
   text-decoration: none;
-  color: var(--white);
-  opacity: 0.6;
+  color: var(--primaryColor);
 }
 
 .nav .active {
-  opacity: 1;
-  color: var(--green);
-  border-bottom: 5px solid var(--green);
+  color: var(--buttonOneColor);
+  border-bottom: 5px solid var(--buttonOneColor);
 }

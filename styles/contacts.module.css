@@ -77,6 +77,12 @@
   align-self: center;
 }
 
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .heading {
   font-size: 3rem;
   width: 80%;

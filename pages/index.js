@@ -12,8 +12,12 @@ export default function Home({ setActivePage }) {
   return (
     <div className={css.flexContainer}>
       <div className={css.welcome} data-aos="fade-down">
-        <div className={css.name}>
-          <h1>Valerio Cipolla</h1>
+        <div>
+          <h1>
+            Hello, World.
+            <br />I am <br />
+            VALERIO CIPOLLA
+          </h1>
           <h2>
             Software Engineer & <br />
             Full Stack Developer

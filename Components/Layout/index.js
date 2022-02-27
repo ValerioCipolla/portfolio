@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
 import Head from "next/head";
 import * as css from "../../styles/body.module.css";

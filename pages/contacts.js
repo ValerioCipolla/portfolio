@@ -26,7 +26,7 @@ const Contacts = () => {
           <Button
             text="github"
             link="https://github.com/ValerioCipolla"
-            color="green"
+            color="one"
             size="big"
             interal={false}
             projectButton={false}
@@ -34,7 +34,7 @@ const Contacts = () => {
           <Button
             text="linkedin"
             link="https://www.linkedin.com/in/valerio-cipolla-software-engineer/"
-            color="blue"
+            color="two"
             size="big"
             interal={false}
             projectButton={false}
@@ -42,7 +42,7 @@ const Contacts = () => {
           <Button
             text="e-mail"
             link="mailto: valeriocipolla92@gmail.com"
-            color="white"
+            color="three"
             size="big"
             interal={false}
             projectButton={false}

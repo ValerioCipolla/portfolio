@@ -8,21 +8,19 @@
   margin: auto;
   padding: 2rem auto;
   line-height: 1.5;
+  font-weight: 600;
 }
 
 .about h1 {
   margin: 4rem 0;
-  border-bottom: 5px solid var(--primaryColor);
+  border-bottom: 1px solid var(--primaryColor);
 }
 .about p {
   margin-bottom: 2rem;
   font-family: "Nunito", sans-serif;
 }
 
-.blueText {
-  color: var(--buttonTwoColor);
-}
-.greenText {
+.accent {
   color: var(--buttonOneColor);
 }
 

@@ -30,7 +30,8 @@
 }
 
 .active {
-  border-bottom: 5px solid var(--primaryColor);
+  font-weight: 600;
+  border-bottom: 1px solid var(--primaryColor);
 }
 
 .icons {

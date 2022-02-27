@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Button from "../Button";
 import * as css from "../../styles/project.module.css";
 import { FaAngleLeft } from "react-icons/fa";
@@ -49,14 +49,14 @@ const Project = ({
               <Button
                 text="Live site"
                 link={liveLink}
-                color="blue"
+                color="one"
                 size="small"
                 projectButton={true}
               />
               <Button
                 text="Source code"
                 link={sourceLink}
-                color="green"
+                color="two"
                 size="small"
                 projectButton={true}
               />

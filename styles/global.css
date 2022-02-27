@@ -14,17 +14,12 @@
 }
 
 :root {
-  /* --black: #080707;
-  --card-color: #0a0a0a;
-  --white: #f2f2f2;
-  --green: #00f260;
-  --blue: #248ffa; */
   --backgroundColor: #ebebf3;
   --cardColor: #ebebf3;
-  --primaryColor: #1e2925;
-  --secondaryColor: ;
-  --buttonOneColor: ;
-  --buttonTwoColor: ;
+  --primaryColor: #011627;
+  --secondaryColor: #253b4d;
+  --buttonOneColor: #e36f10;
+  --buttonTwoColor: #08365c;
 }
 
 html {

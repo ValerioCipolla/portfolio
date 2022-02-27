@@ -16,7 +16,7 @@ export default function Home({ setActivePage }) {
           <h1>
             Hello, World.
             <br />I am <br />
-            VALERIO CIPOLLA
+           <span className={css.name}>VALERIO CIPOLLA</span>
           </h1>
           <h2>
             Software Engineer & <br />
@@ -27,7 +27,7 @@ export default function Home({ setActivePage }) {
           <Button
             text="See my work"
             link="/projects"
-            color="blue"
+            color="one"
             setActivePage={setActivePage}
             toPage="projects"
             size="big"
@@ -36,7 +36,7 @@ export default function Home({ setActivePage }) {
           <Button
             text="Get in touch"
             link="/contacts"
-            color="green"
+            color="two"
             setActivePage={setActivePage}
             toPage="contacts"
             size="big"

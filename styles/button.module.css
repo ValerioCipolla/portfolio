@@ -1,47 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Rubik&display=swap");
 
-.greenButton {
-  color: var(--buttonOneColor);
-  border: 3px solid var(--buttonOneColor);
+.buttonOne {
+  background-color: var(--buttonOneColor);
+  border: none;
 }
 
-.blueButton {
-  color: var(--buttonTwoColor);
-  border: 3px solid var(--buttonTwoColor);
+.buttonTwo {
+  background-color: var(--buttonTwoColor);
+  border: none;
 }
 
-.whiteButton {
-  color: var(--primaryColor);
-  border: 3px solid var(--primaryColor);
+.buttonThree {
+  background-color: var(--primaryColor);
+  border: none;
 }
 
 .button {
   transition: all 0.5s ease;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: var(--backgroundColor);
-  font-weight: 600;
+  color: var(--backgroundColor);
+  font-weight: 400;
   font-family: "Rubik", sans-serif;
   letter-spacing: 2px;
 }
 
 .button:hover {
   cursor: pointer;
-}
-
-.greenButton:hover {
-  color: var(--backgroundColor);
-  background-color: var(--buttonOneColor);
-}
-
-.blueButton:hover {
-  color: var(--backgroundColor);
-  background-color: var(--buttonTwoColor);
-}
-
-.whiteButton:hover {
-  color: var(--backgroundColor);
-  background-color: var(--primaryColor);
+  transform: translate(10px, 0);
 }
 
 .bigButton {
@@ -52,10 +38,6 @@
 .smallButton {
   font-size: 0.9rem;
   padding: 0.25rem 0.5rem;
-}
-
-.projectButton {
-  background-color: var(--cardColor);
 }
 
 @media (max-width: 700px) {

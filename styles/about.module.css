@@ -8,21 +8,20 @@
   margin: auto;
   padding: 2rem auto;
   line-height: 1.5;
+  font-weight: 600;
 }
 
 .about h1 {
   margin: 4rem 0;
-  border-bottom: 5px solid var(--white);
+  border-bottom: 1px solid var(--primaryColor);
 }
 .about p {
   margin-bottom: 2rem;
+  font-family: "Nunito", sans-serif;
 }
 
-.blueText {
-  color: var(--blue);
-}
-.greenText {
-  color: var(--green);
+.accent {
+  color: var(--buttonOneColor);
 }
 
 .emphasis {
@@ -30,14 +29,14 @@
 }
 
 .about a {
-  color: var(--white);
+  color: var(--primaryColor);
   transition: all 0.5s ease;
 }
 
 .about a:hover {
   text-decoration: none;
-  color: var(--black);
-  background-color: var(--white);
+  color: var(--backgroundColor);
+  background-color: var(--primaryColor);
   font-weight: 900;
 }
 
@@ -54,8 +53,8 @@
 
   .about a:hover {
     text-decoration: underline;
-    color: var(--white);
-    background-color: var(--black);
+    color: var(--primaryColor);
+    background-color: var(--backgroundColor);
     font-weight: 400;
   }
 }

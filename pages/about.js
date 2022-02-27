@@ -14,8 +14,8 @@ const About = () => {
       <p>
         Hi there, thanks for checking out my portfolio.
         <br /> I am a bilingual, ambitious{" "}
-        <span className={css.blueText}> Software Engineer </span>
-        and <span className={css.greenText}>Full Stack Developer</span>. Highly
+        <span className={css.accent}> Software Engineer </span>
+        and <span className={css.accent}>Full Stack Developer</span>. Highly
         skilled in problem solving and logical thinking I apply my best
         qualities to the challenges of the tech industry. I have a lot of
         experience in using the MERN stack, but I can pick up new skills,
@@ -43,7 +43,7 @@ const About = () => {
         career as a Software Engineer. I kept improving and learning through
         multiple Udemy courses and in November 2021 I decided to change my life
         forever and start a{" "}
-        <span className={css.greenText}>
+        <span className={css.accent}>
           16 weeks Full-Stack Software Development Bootcamp
         </span>{" "}
         with{" "}
@@ -56,30 +56,30 @@ const About = () => {
         The experience has been amazing and I genuinely feel like what I have
         learnt in 4 months at the Bootcamp would have taken me 18/24 months of
         studying on my own! On the course we learnt how to build, test, and
-        deploy <span className={css.blueText}>full-stack applications</span>{" "}
-        with the help of technologies like: Git, HTML, CSS, JavaScript, React
-        JS, Node.js, Express, MongoDB, TypeScript, PostgreSQL, Jest, Cypress,
+        deploy <span className={css.accent}>full-stack applications</span> with
+        the help of technologies like: Git, HTML, CSS, JavaScript, React JS,
+        Node.js, Express, MongoDB, TypeScript, PostgreSQL, Jest, Cypress,
         Docker, Heroku, Netlify and many more.
       </p>
       <p>
         The course was 100% remote and it didn't just teach me how to code, but
         it also taught me how to work remotely and effectively within a team. A
         lot of emphasis was put on learning{" "}
-        <span className={css.greenText}>Agile Principles</span> which really
-        paid off during the week 9 project, and the final 4 weeks-long project.{" "}
+        <span className={css.accent}>Agile Principles</span> which really paid
+        off during the week 9 project, and the final 4 weeks-long project.{" "}
         <br />
         All of the learning and building during the course was done using{" "}
-        <span className={css.blueText}>Pair-Programming</span> and Git for
-        version control, including branching, pull requests, merge requests and
-        solving conflicts.
+        <span className={css.accent}>Pair-Programming</span> and Git for version
+        control, including branching, pull requests, merge requests and solving
+        conflicts.
       </p>
       <p>
         I am looking forward to starting my career as a Software Engineer to
-        work on <span className={css.greenText}>real-world problems</span> and
+        work on <span className={css.accent}>real-world problems</span> and
         potentially improve people's lives through software. Naturally curious
-        and obsessed with <span className={css.blueText}>self-development</span>
-        , I am always learning something new. Before finding my love for coding
-        I was a certified Personal Trainer and Sports Massage Therapist, and in
+        and obsessed with <span className={css.accent}>self-development</span>,
+        I am always learning something new. Before finding my love for coding I
+        was a certified Personal Trainer and Sports Massage Therapist, and in
         2020 I earned a Bachelor's degree in Psychology. I am confident the
         people skills I gained through my previous employment and my knowledge
         about the human mind and body will prove very valuable in my software

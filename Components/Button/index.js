@@ -13,12 +13,12 @@ const Button = ({
   projectButton,
 }) => {
   const classes = `${css.button} ${
-    color === "blue"
-      ? css.blueButton
-      : color === "green"
-      ? css.greenButton
-      : color === "white"
-      ? css.whiteButton
+    color === "one"
+      ? css.buttonOne
+      : color === "two"
+      ? css.buttonTwo
+      : color === "three"
+      ? css.buttonThree
       : null
   } ${
     size === "big" ? css.bigButton : size === "small" ? css.smallButton : null

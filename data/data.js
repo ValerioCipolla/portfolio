@@ -53,4 +53,13 @@ export const projects = [
     description:
       "I originally built this project at the end of week 2 of the School of Code bootcamp. That week we were taught about DOM manipulation and async operations. So my partner and I decided to put everything together to build a simple application that allows the user to look up an english word and find its meaning, origins, and pronunciation (audio file included). We used the querySelector method to interact with the DOM and a free API to fetch information about the words the users can input. Later on I spent some additional time to refactor the code and to add responsiveness, so it can be used on both big and small screens. The app has some error-handling (if the word is not found, it lets the user know and advises to check the spelling) and also keeps track of the history of words that were looked up, it has a button that when clicked shows the words that were searched during that session.",
   },
+  {
+    id: 7,
+    title: "Harry Potter Quiz",
+    liveLink: "https://valeriocipolla.github.io/harry-potter-quiz-app/",
+    sourceLink: "https://github.com/ValerioCipolla/harry-potter-quiz-app",
+    techStack: "HTML, CSS, JavaScript",
+    description:
+      "I built this project about 2 months into my JavaScript journey (before starting the School of Code Bootcamp). I decided to build this because I am a huge Harry Potter fan, and I wanted to create something to challenge my friends with! I started by taking a 'mobile-first' approach in the design of this application, because (from experience) I knew if I had started with the desktop design, it would have been difficult to adapt it to a smaller screen later on, and this decision really paid off! Regarding to the logic behind it, working on this projects helped me improve on some core JavaScript data-structures skills (objects, arrays and if statements) and Web Development skills (DOM manipulation). Some of the the things I learned to use during this project: document.getElementByID(), document.createElement(), document.querySelectorAll() and template literals. Looking at the future: I'd like to improve this project by increasing the number of possible questions (building a back-end API and a database from which I can fetch the questions). If you fancy a challenge, click on the 'LIVE SITE' button above and give it a go!",
+  },
 ];

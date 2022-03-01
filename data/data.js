@@ -62,4 +62,24 @@ export const projects = [
     description:
       "I built this project about 2 months into my JavaScript journey (before starting the School of Code Bootcamp). I decided to build this because I am a huge Harry Potter fan, and I wanted to create something to challenge my friends with! I started by taking a 'mobile-first' approach in the design of this application, because (from experience) I knew if I had started with the desktop design, it would have been difficult to adapt it to a smaller screen later on, and this decision really paid off! Regarding to the logic behind it, working on this projects helped me improve on some core JavaScript data-structures skills (objects, arrays and if statements) and Web Development skills (DOM manipulation). Some of the the things I learned to use during this project: document.getElementByID(), document.createElement(), document.querySelectorAll() and template literals. Looking at the future: I'd like to improve this project by increasing the number of possible questions (building a back-end API and a database from which I can fetch the questions). If you fancy a challenge, click on the 'LIVE SITE' button above and give it a go!",
   },
+  {
+    id: 8,
+    title: "How Many Days Old Are You?",
+    liveLink: "https://valeriocipolla.github.io/how-many-days-old-App/",
+    sourceLink: "https://github.com/ValerioCipolla/how-many-days-old-App",
+    techStack: "HTML, CSS, JavaScript",
+    description:
+      "This is an other project I built before starting the School Of Code Bootcamp. I was learning about the date object in javascript, and how to use it, and I was struggling to grasp exactly how it worked, and as I always do when I am trying to figure something out, I built something with it! Learning about how the Date object works was one of the challenges, an other challenge was error handling and dealing with edge cases - what if the user inputs a non-valid date or a date that lives in the future? No-one can be minus-days olds! And finally, making things happen when a button is clicked (it was my first time using buttons in a project). Things I have learnt to use along the way: new Date(), Date.now(), Date.getTime(), document.createElement(), document.body.append(), element.addEventListener(). Click on the 'LIVE SITE' button above and find out how many spins you have been through on this planet! ",
+  },
+  {
+    id: 9,
+    title: "JavaScript Typing Animation",
+    liveLink:
+      "https://valeriocipolla.github.io/typing-and-erasing-Vanilla-JavaScript/",
+    sourceLink:
+      "https://github.com/ValerioCipolla/typing-and-erasing-Vanilla-JavaScript",
+    techStack: "HTML, CSS, JavaScript",
+    description:
+      "My first ever project. Fresh out of the JavaScript Algorithm Scripting and Data Structure course on freeCodeCamp, I knew it was time for me to build my first thing. I was inspired by a Codepen I had seen one afternoon, I was tempted to look at the source code, but I stopped and thought `Why don't I build it myself?'. In my mind it was clear what I needed to do, within a few minutes I had a detailed plan of action, so I sat down, stared at my keyboard and... nothing happened. It was difficult to get started, without anyone or anything holding your hand through the process, but I am so glad I did. So I started with what I was comfortable with, HTML and CSS. Then I started adding very small bits of JavaScript code, I had to figure out how to grab stuff from the DOM with JavaScript, and how to change it depending on a set of different conditions. Some of the things I have learnt: document.getElementById(), Math.random(), setTimeout(), string.slice(). Slowly but surely I kept going and within a few hours I had a finished product I was - and still am - really proud of.",
+  },
 ];

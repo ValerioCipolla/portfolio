@@ -5,7 +5,7 @@ export const projects = [
     liveLink: "https://bossanova.netlify.app/",
     sourceLink:
       "https://github.com/ValerioCipolla/final-project-repo-bossa-nova",
-    presentationLink: "https://www.youtube.com/watch?v=CkBJp3GZh5g",
+    presentationLink: "https://www.youtube.com/watch?v=TiA1E__T4sA",
     techStack:
       "React JS, Tailwind CSS, React-Router, Cypress, React Testing Library, Auth0",
     description:
@@ -17,7 +17,7 @@ export const projects = [
     liveLink: "https://bossanova.netlify.app/",
     sourceLink:
       "https://github.com/ValerioCipolla/final-project-api-bossa-nova",
-    presentationLink: "https://www.youtube.com/watch?v=CkBJp3GZh5g",
+    presentationLink: "https://www.youtube.com/watch?v=TiA1E__T4sA",
     techStack: "Node.js, Express.js, MongoDB, Mongoose, Jest, Supertest",
     description:
       "The app we built is a job-application tracking app. We needed an api that would allow us to store and retrieve information about users at all times. We initially thought about using PostgreSQL as a database because that is what we had been using up until that point on the bootcamp, but it didn't make much sense to use a relational database for our project, as we would have ended up with a huge table and countless repeated fields and some empty fields as well. So even though we didn't have any experience with non-relational tables yet, we decided we were going to use MongoDB. It took a few days of exploring and researching before we became familiar with it, but it was a an enjoyable and useful experience. We use Mongoose to create the document schema and mongoose CRUD operations to perform actions on the database.",

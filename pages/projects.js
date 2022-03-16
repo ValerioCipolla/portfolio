@@ -28,9 +28,8 @@ const Projects = () => {
         techStack={projects[index].techStack}
         liveLink={projects[index].liveLink}
         sourceLink={projects[index].sourceLink}
+        presentationLink={projects[index].presentationLink}
         description={projects[index].description}
-        liveLink={projects[index].liveLink}
-        sourceLink={projects[index].sourceLink}
         id={projects[index].id}
         rightArrowHandler={rightArrowHandler}
         leftArrowHandler={leftArrowHandler}

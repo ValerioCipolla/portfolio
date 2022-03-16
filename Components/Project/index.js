@@ -13,6 +13,7 @@ const Project = ({
   description,
   sourceLink,
   liveLink,
+  presentationLink,
   id,
   leftArrowHandler,
   rightArrowHandler,
@@ -60,6 +61,15 @@ const Project = ({
                 size="small"
                 projectButton={true}
               />
+              {presentationLink && (
+                <Button
+                  text="Live Demo"
+                  link={presentationLink}
+                  color="three"
+                  size="small"
+                  projectButton={true}
+                />
+              )}
             </div>
             <h4 className={css.heading}>Tech Stack:</h4>
             <p className={css.techStack}>{techStack}</p>

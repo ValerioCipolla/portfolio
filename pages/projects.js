@@ -34,6 +34,7 @@ const Projects = () => {
         rightArrowHandler={rightArrowHandler}
         leftArrowHandler={leftArrowHandler}
         projectsLength={projects.length}
+        language={projects[index].language}
       />
     </div>
   );

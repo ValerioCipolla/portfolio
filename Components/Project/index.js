@@ -3,6 +3,8 @@ import Button from "../Button";
 import * as css from "../../styles/project.module.css";
 import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { SiPython } from "react-icons/si";
 import { useWindowSize } from "../../hooks/useWindowSize";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,11 +20,14 @@ const Project = ({
   leftArrowHandler,
   rightArrowHandler,
   projectsLength,
+  language,
 }) => {
   const windowSize = useWindowSize();
   useEffect(() => {
     AOS.init();
   }, []);
+
+  console.log(language);
 
   return (
     <>
@@ -47,13 +52,15 @@ const Project = ({
           <div className={css.card}>
             <h1 className={css.title}>{title}</h1>
             <div className={css.buttonSection}>
-              <Button
-                text="Live site"
-                link={liveLink}
-                color="one"
-                size="small"
-                projectButton={true}
-              />
+              {liveLink && (
+                <Button
+                  text="Live site"
+                  link={liveLink}
+                  color="one"
+                  size="small"
+                  projectButton={true}
+                />
+              )}
               <Button
                 text="Source code"
                 link={sourceLink}
@@ -71,8 +78,21 @@ const Project = ({
                 />
               )}
             </div>
-            <h4 className={css.heading}>Tech Stack:</h4>
-            <p className={css.techStack}>{techStack}</p>
+            <div className={css.techStackFlex}>
+              <div>
+                <h4 className={css.heading}>Tech Stack:</h4>
+                <p className={css.techStack}>{techStack}</p>
+              </div>
+              <h4 className={css.languageIcon}>
+                {language === "JavaScript" ? (
+                  <SiJavascript />
+                ) : language === "Python" ? (
+                  <SiPython />
+                ) : (
+                  ""
+                )}
+              </h4>
+            </div>
             <h4 className={css.heading}>The Story:</h4>
             <p className={css.description}>{description}</p>
           </div>
